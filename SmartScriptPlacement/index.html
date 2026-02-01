@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Script placement</title>
+</head>
+<body>
+
+    <!-----main-->
+    <main>
+        <div class="main-container">
+            <!---Welcome Header with ID main header-->
+            <h1 id="main-header"> 
+                Welcome
+            </h1>
+            
+            <!---paragraph Text-->
+            <p id="paragraph"> Hello HackerBoost</p>
+            <div>
+
+            </div>
+
+            <!--seperate button section-->
+            <div class="buttion-section">
+                <button id="btn">Reveal Secret</button>
+            </div>
+        </div>
+    </main>
+
+    <!---Implementing Script tag placement Best practice
+    HTML DOM must be fully loaded before any JS script will
+    Run
+
+    REASONS
+    (1) Becuase the JS selects elements from the DOM
+    (2) To prevent the User waiting on a blank screen
+    
+    -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
